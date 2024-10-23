@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
 </head> 
-<body>
+<body id="cuerpo">
     <header>
         <nav>
             <ul>
@@ -16,21 +16,28 @@
             </ul> 
         </nav>
     </header>
+
     <main>
         <section class="flex-item">item 1</section>
-        <section class="flex-item">item 2</section>
-    </main> 
-    <footer>
+        <section id="flex-item1">item 2
+            <button id="enviar">ENVIAR</button>
+        </section>
+    </main>
+
+    <footer class="footer">
         <ul>
-            <li><a href="">item 1</a></li>
+            <li><a id="a1" href="">item 1</a></li>
             <li><a href="">item 2</a></li>
             <li><a href="">item 3</a></li>
         </ul>
         <ul>
-            <li><a href="">item 1</a></li>
-            <li><a href="">item 2</a></li>
+            <li><a id="a-item" href="">item 1</a></li>
+            <li><a id="a-item1" href="">item 2</a></li>
             <li><a href="">item 3</a></li>
         </ul>
     </footer>
+
+    <script src="/js/dom.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>

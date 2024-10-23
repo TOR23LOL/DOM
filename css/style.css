@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+}
+
+.scale{
+    transform:  scale(1.5);
+}
+
+.center{
+    text-align: center;
+}
+
+.rotate{
+    transform: rotate(45deg);
+}
+
+.body{
+    background-color: black;
+}
+
+.color-fuente{
+    color: brown;
+}
+
+.a{
+    text-decoration: none;
+    font-size: 1.18vw;
+    color: black;
+}
+
+.a1{
+    text-decoration: none;
+    color: brown;
+}
