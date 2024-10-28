@@ -1,5 +1,29 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{flex-grow: 1;}
+
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: auto;
     background-color: bisque;
+}
+
+.header{
+    background-color: rgb(255, 182, 87);
+    display: flex;
+    padding: 1%;
+
+    nav ul li, a{
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+    }
 }
 
 .scale{
